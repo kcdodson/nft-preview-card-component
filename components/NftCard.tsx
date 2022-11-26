@@ -23,7 +23,7 @@ export default function NftCard({}: Props) {
               src={nft}
               width={300}
               height={300}
-              className="inset-0 aspect-square object-cover rounded-lg"
+              className="inset-0 w-fit aspect-square object-cover rounded-lg"
             />
           </div>
           <div className="flex flex-col max-w-fit justify-center items-start gap-4">
